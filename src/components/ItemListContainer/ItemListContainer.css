@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*FLEX*/
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-block: 2rem;
+    
+}
+
+
+/*CARD DE CADA PRODUCTO*/
+.card-producto {
+    position: relative;
+    width: 320px;
+    height: 480px;
+    background: #6351ac;
+    border: 5px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 25px;
+}
+
+.card-producto::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    right: .001%;
+    width: 100%;
+    height: 100%;
+    background: #181818;
+    transform: skewY(345deg);
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.card-producto:hover::before {
+    top: -70%;
+    transform: skewY(390deg);
+}
+
+.card-producto::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 6em;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.card-producto .imgBox {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+.card-producto .contentBox {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.card-producto .contentBox h3 {
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card-producto .contentBox .price {
+    font-size: 24px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.card-producto .contentBox .buy {
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 10px;
+    color: #000000;
+    text-decoration: none;
+    background: #b9add9;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.card-producto:hover .contentBox .buy {
+    top: 0;
+    opacity: 1;
+}
+
+.mouse {
+    height: 300px;
+    width: auto;
+}
+
+.img-productos{
+    width: 300px;
+}
