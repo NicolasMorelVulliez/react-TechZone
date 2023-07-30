@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import WidgetCarrito from "../WidgetCarrito/WidgetCarrito";
 
 
 function Navbar() {
@@ -15,7 +16,10 @@ function Navbar() {
                     <li><Link to="/productos">Productos</Link></li>
                     <li><Link to="/productos/serie-4000">Serie 4000</Link></li>
                     <li><Link to="/productos/serie-3000">Serie 3000</Link></li>
-                    <li><Link to="carrito"><img className="carrito-logo" src="https://images.vexels.com/media/users/3/200985/isolated/preview/c338a29ce227d751b27f8b141cdb5afa-mano-con-el-icono-de-carrito-de-compras.png" alt="" /></Link></li>
+                    <li><Link to="/contacto">Contactanos</Link></li>
+                    <li><WidgetCarrito /></li>
+
+
                 </ul>
             </nav>
         </header>

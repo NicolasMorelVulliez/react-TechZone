@@ -8,7 +8,7 @@ const ItemDetailContainer = () => {
 
     const [item, setItem] = useState(null);
     const id = useParams().id;
-    console.log(id)
+    //console.log(id)
 
     useEffect(() => {
         pedirItemPorId(Number(id))

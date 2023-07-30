@@ -26,4 +26,40 @@
     color: #424242;
 }
 
+.item-count{
+    display: flex;
+    align-items: center;
+    gap: 1rem ;
+    margin-top: 1rem;
+    color: white;
 
+}
+.item-count button, .agregar-carrito {
+    background-color:#6351ac;
+    border: 0;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    border-radius: .5rem ;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 1px solid black;
+    transition: .2s;
+}
+
+.item-count button:hover, .agregar-carrito:hover{
+    background-color: white;
+    color: black;
+}
+
+.agregar-carrito{
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: .7rem;
+}

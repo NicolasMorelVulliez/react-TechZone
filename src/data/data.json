@@ -1,11 +1,83 @@
 [
-    {"nombre":"NVIDIA RTX 4090","descripcion":"Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper","precio":480000, "id": 1,"serie":"serie-4000", "img":"https://dlcdnwebimgs.asus.com/gain/B5FDF552-0C4F-4155-B2DC-24E2E74669DE/w1000/h732"},
-    {"nombre":"NVIDIA RTX 4080","descripcion":"Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper", "precio":450000, "id": 2,"serie":"serie-4000", "img":"https://static.gigabyte.com/StaticFile/Image/Global/f3464b9a6e0c89afb9c8737d0d5785c2/Product/32374"},
-    {"nombre":"NVIDIA RTX 4070","descripcion":"Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper", "precio":420000, "id": 3,"serie":"serie-4000", "img":"https://www.invidcomputers.com/images/000000000041545231188415452--1-.png"},
-    {"nombre":"NVIDIA RTX 4060","descripcion":"Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper", "precio":400000, "id": 4,"serie":"serie-4000", "img":"https://static.gigabyte.com/StaticFile/Image/Global/06c06d425970eb82d8f379f1e8bb828b/Product/35362/Png"},
-    {"nombre":"NVIDIA RTX 4050","descripcion":"Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper", "precio":380000, "id": 5,"serie":"serie-4000", "img":"https://d2r9epyceweg5n.cloudfront.net/stores/001/381/842/products/111-7db6616741bc7937d216527416715524-1024-1024.png"},
-    {"nombre":"NVIDIA RTX 3090","descripcion":"Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper", "precio":415000, "id": 6,"serie":"serie-3000", "img":"https://lezamapc.com.ar/27995-large_default/placa-de-video-evga-24gb-rtx-3090-xc3-ultra-icx3-argb-led-i.jpg"},
-    {"nombre":"NVIDIA RTX 3080","descripcion":"Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper", "precio":405000, "id": 7,"serie":"serie-3000", "img":"https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-4660994.png"},
-    {"nombre":"NVIDIA RTX 3070","descripcion":"Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper", "precio":395000, "id": 8,"serie":"serie-3000", "img":"https://www.invidcomputers.com/images/000000000041307992226product-7-20200929151934-5f72e006265fb.png"},
-    {"nombre":"NVIDIA RTX 3060","descripcion":"Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper", "precio":380000, "id": 9,"serie":"serie-3000", "img":"https://www.comeros.com.ar/wp-content/uploads/2021/06/12G-P5-3657-KR_LG_1.png"}
+    {
+        "nombre": "NVIDIA RTX 4090",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper",
+        "precio": 480000,
+        "id": 1,
+        "serie": "serie-4000",
+        "img": "https://dlcdnwebimgs.asus.com/gain/B5FDF552-0C4F-4155-B2DC-24E2E74669DE/w1000/h732",
+        "stock": 2
+    },
+    {
+        "nombre": "NVIDIA RTX 4080",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper",
+        "precio": 450000,
+        "id": 2,
+        "serie": "serie-4000",
+        "img": "https://static.gigabyte.com/StaticFile/Image/Global/f3464b9a6e0c89afb9c8737d0d5785c2/Product/32374",
+        "stock": 5
+    },
+    {
+        "nombre": "NVIDIA RTX 4070",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper",
+        "precio": 420000,
+        "id": 3,
+        "serie": "serie-4000",
+        "img": "https://www.invidcomputers.com/images/000000000041545231188415452--1-.png",
+        "stock": 3
+    },
+    {
+        "nombre": "NVIDIA RTX 4060",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper",
+        "precio": 400000,
+        "id": 4,
+        "serie": "serie-4000",
+        "img": "https://static.gigabyte.com/StaticFile/Image/Global/06c06d425970eb82d8f379f1e8bb828b/Product/35362/Png",
+        "stock": 10
+    },
+    {
+        "nombre": "NVIDIA RTX 4050",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper",
+        "precio": 380000,
+        "id": 5,
+        "serie": "serie-4000",
+        "img": "https://d2r9epyceweg5n.cloudfront.net/stores/001/381/842/products/111-7db6616741bc7937d216527416715524-1024-1024.png",
+        "stock": 5
+    },
+    {
+        "nombre": "NVIDIA RTX 3090",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper",
+        "precio": 415000,
+        "id": 6,
+        "serie": "serie-3000",
+        "img": "https://lezamapc.com.ar/27995-large_default/placa-de-video-evga-24gb-rtx-3090-xc3-ultra-icx3-argb-led-i.jpg",
+        "stock": 9
+    },
+    {
+        "nombre": "NVIDIA RTX 3080",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper",
+        "precio": 405000,
+        "id": 7,
+        "serie": "serie-3000",
+        "img": "https://app.contabilium.com/files/explorer/7026/Productos-Servicios/concepto-4660994.png",
+        "stock": 20
+    },
+    {
+        "nombre": "NVIDIA RTX 3070",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper",
+        "precio": 395000,
+        "id": 8,
+        "serie": "serie-3000",
+        "img": "https://www.invidcomputers.com/images/000000000041307992226product-7-20200929151934-5f72e006265fb.png",
+        "stock": 10
+    },
+    {
+        "nombre": "NVIDIA RTX 3060",
+        "descripcion": "Lorem ipsum dolor sit amet consectetur adipiscing elit fames dictumst dapibus facilisis turpis, ullamcorper",
+        "precio": 380000,
+        "id": 9,
+        "serie": "serie-3000",
+        "img": "https://www.comeros.com.ar/wp-content/uploads/2021/06/12G-P5-3657-KR_LG_1.png",
+        "stock": 15
+    }
 ]

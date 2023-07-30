@@ -8,7 +8,7 @@ const ItemListContainer = () => {
 
     const [productos, setProductos] = useState([]);
     const serie = useParams().serie;
-    console.log(serie)
+    //console.log(serie)
 
     useEffect(() => {
         pedirProductos()
