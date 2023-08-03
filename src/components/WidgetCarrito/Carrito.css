@@ -1,3 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
 .main-title {
     color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    align-content: center;
+    
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.nombre-producto{
+    color: aliceblue;
+    width: 3rem;
+    width: auto;
+    padding: 1rem;
+    border-left: solid #6351ac 2px;
+    border-right: solid #6351ac 2px;
+}
+
+.imagen-producto{
+    width: 150px;
+    height: auto;
+    
+}
+
+.precio-producto{
+    color: rgb(196, 196, 196);
+    width: auto;
+    padding: 1rem;
+    font-size: 1rem;
+    border-left: solid #6351ac 2px;
+    
+
+}
+.precio-final{
+    color: aliceblue;
+    width: auto;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-left: solid #6351ac 2px;
+    
+}
+.cant-producto{
+    color: aliceblue;
+    width: auto;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-left: solid #6351ac 2px;
+    border-right: solid #6351ac 2px;
+}
+.contenedor-alt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.precio-total{
+    color: aliceblue;
+    width: auto;
+    padding: 1rem;
+    font-size: 2rem;
+    align-items: center;
+}
+.boton-vaciar{
+    background-color:#6351ac;
+    border: 0;
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: .7rem;
+    color: white;
+    border-radius: .5rem ;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 1px solid black;
+    transition: .2s;
+    margin-bottom: 5rem;
+}
+
+.boton-vaciar:hover{
+    background-color: white;
+    color: black;
+}
+.carrito-vacio{
+    color: #6351ac;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 10rem;
 }

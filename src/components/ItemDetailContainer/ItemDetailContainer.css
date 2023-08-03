@@ -23,7 +23,7 @@
     font-size: 2rem;
     margin-top: 2rem;
     font-weight: 600;
-    color: #424242;
+    color: whitesmoke;
 }
 
 .item-count{
@@ -50,6 +50,7 @@
     line-height: 1;
     border: 1px solid black;
     transition: .2s;
+
 }
 
 .item-count button:hover, .agregar-carrito:hover{
@@ -62,4 +63,5 @@
     height: auto;
     margin-top: 1rem;
     padding: .7rem;
+    margin-bottom: 5rem;
 }

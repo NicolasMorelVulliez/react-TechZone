@@ -1,19 +1,23 @@
 .formulario {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: .7rem;
-    align-items: flex-start;
+    
 }
 
 .formulario input {
     padding: .5rem;
-    width: 18rem;
+    width: 25rem;
+    height: 3rem;
     border-radius: .6rem;
     border: 2px solid black;
 }
 
 .main-title {
     color: aliceblue;
+    padding-bottom: 50px;
 }
 
 .formulario input:focus {
@@ -38,6 +42,7 @@
     line-height: 1;
     border: 1px solid black;
     transition: .2s;
+    margin-bottom: 5rem;
 }
 
 .enviar:hover{
@@ -49,4 +54,7 @@
     height: auto;
     margin-top: 1rem;
     padding: .7rem;
+}
+.consulta{
+    height: 5rem;
 }

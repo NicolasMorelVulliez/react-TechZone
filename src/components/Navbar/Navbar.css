@@ -8,7 +8,12 @@ header {
 
 .logo {
     max-width: 5rem;
+    list-style-type: none;
 }
+li{
+    list-style-type: none;
+}
+
 
 .nav-list {
     list-style-type: none;
@@ -20,6 +25,7 @@ header {
 .nav-list li a {
     text-decoration: none;
     color: aliceblue;
+    list-style-type: none;
 }
 
 .abrir-menu,

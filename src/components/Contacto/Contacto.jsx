@@ -17,8 +17,10 @@ const Contacto = () => {
             <form className='formulario' onSubmit={handleSubmit(enviar)}>
 
                 <input type='text' placeholder='Ingresa tu nombre'  {...register("nombre")}/>
+                <input type='text' placeholder='Ingresa tu apellido'  {...register("apellido")}/>
                 <input type='email' placeholder='Ingresa tu email' {...register("email")}  />
                 <input type='phone' placeholder='Ingrese su numero de telefono' {...register("telefono")}/>
+                <input className='consulta' type='text' placeholder='Ingrese su consulta' {...register("consulta")}/>
 
                 <button className='enviar' type='submit'> Enviar</button>
 
