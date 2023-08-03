@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="grupo-1">
                     <div className="box">
                         <figure>
-                            <a href="#">
+                            <a href="/">
                                 <img src="https://i.ibb.co/vxRp56F/zyro-image.png" alt="" />
                             </a>
                         </figure>
@@ -27,10 +27,10 @@ const Footer = () => {
                     <div className="box">
                         <h2>Redes Sociales</h2>
                         <div class="red-social">
-                            <a href="#" ><img className='iconos' src={fb} alt="" /></a>
-                            <a href="#" ><img className='iconos' src={instagram} alt="" /></a>
-                            <a href="#" ><img className='iconos' src={tw} alt="" /></a>
-                            <a href="#" ><img className='iconos' src={yt} alt="" /></a>
+                            <a href="/" ><img className='iconos' src={fb} alt="" /></a>
+                            <a href="/" ><img className='iconos' src={instagram} alt="" /></a>
+                            <a href="/" ><img className='iconos' src={tw} alt="" /></a>
+                            <a href="/" ><img className='iconos' src={yt} alt="" /></a>
                         </div>
                     </div>
                 </div>

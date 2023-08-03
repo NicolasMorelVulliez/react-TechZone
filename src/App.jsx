@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
@@ -26,7 +26,7 @@ function App() {
             <Route path="/carrito" element={<Carrito />} />
           </Routes>
 
-          <Footer/>
+          <Footer />
         </BrowserRouter>
       </CartProvider>
 
