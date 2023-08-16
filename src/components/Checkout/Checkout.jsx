@@ -19,7 +19,6 @@ const Checkout = () => {
             prodcutos: carrito,
             total: precioTotal(),
         }
-        console.log(pedido)
 
         const refPedidos =  collection(db, "pedidos");
 
