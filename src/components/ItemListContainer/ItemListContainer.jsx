@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import pedirProductos from './pedirProducto';
 import ItemList from './ItemList';
 import "./ItemListContainer.css"
 import { useParams } from 'react-router-dom';

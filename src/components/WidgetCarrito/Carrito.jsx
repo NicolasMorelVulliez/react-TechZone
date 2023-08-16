@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import "./Carrito.css";
 import { CarritoContext } from '../../context/CarritoContext';
+import { Link } from 'react-router-dom';
 
 const Carrito = () => {
 
@@ -34,6 +35,7 @@ const Carrito = () => {
                 <div className='contenedor-alt'>
                     <h2 className='precio-total'>Precio Total: ${precioTotal()}</h2>
                     <button onClick={handleCarrito} className='boton-vaciar'>Vaciar Carrito</button>
+                    <Link to="/checkout"><button className='boton-comprar'>Finalizar Compra</button></Link>
                 </div>:
                 <h2 className='carrito-vacio'>El carrito esta vacio :/ </h2>
             }

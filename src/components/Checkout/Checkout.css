@@ -1,0 +1,28 @@
+.checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
+    align-content: center;
+}
+.titulo{
+    padding: 2rem;
+    font-size: 3.2rem;
+}
+.subtitulo{
+    color: rgb(196, 196, 196);
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.consulta{
+    padding: 2rem;
+    color: #6351ac;
+    font-size: 1.2rem;
+}
+.img{
+    margin: 2rem;
+    width: 200px;
+    height: auto;
+}

@@ -96,13 +96,40 @@
     line-height: 1;
     border: 1px solid black;
     transition: .2s;
-    margin-bottom: 5rem;
 }
 
 .boton-vaciar:hover{
     background-color: white;
     color: black;
 }
+
+.boton-comprar{
+    background-color:#6351ac;
+    border: 0;
+    width: auto;
+    height: auto;
+    margin-top: 1rem;
+    padding: .7rem;
+    color: white;
+    border-radius: .5rem ;
+    cursor: pointer;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 1;
+    border: 1px solid black;
+    transition: .2s;
+    margin-bottom: 5rem;
+    text-decoration: no;
+}
+
+.boton-comprar:hover{
+    background-color: white;
+    color: black;
+}
+
 .carrito-vacio{
     color: #6351ac;
     display: flex;
